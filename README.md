@@ -29,6 +29,11 @@ uvicorn main:app --reload
 ```
 pytest
 ```
+* How to use the webserver
+```
+Send a POST request to **/uploads** containing the csv file on the form-data (field name: 'file')
+
+```
 
 ## Improvements
 
